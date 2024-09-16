@@ -1,0 +1,241 @@
+
+*{
+  box-sizing: border-box;
+}
+:root{
+  --color:white;
+  --bg-color:black;
+}
+.darkthem{
+  background-color: var(--bg-color);
+  color: var(--color);
+  transition-duration: 2s;
+  .navbar{
+    background-color: var(--bg-color);
+    color: var(--color);
+    transition-duration: 2s;
+    }
+.footer a{
+  color: var(--color);
+  transition-duration: 2s;
+}
+.navbar a{
+  color: var(--color);
+  transition-duration: 2s;
+}
+.navbar-toggler{
+  background-color: var(--color);
+  transition-duration: 2s;
+}
+.nav-link{
+  color: var(--color);
+  transition-duration: 2s;
+}
+#navbarSupportedContent ul li a{
+  color: var(--color);
+  transition-duration: 2s;
+}
+.pagination-box .btn{
+  color: var(--color);
+  transition-duration: 2s;
+}
+}
+
+
+body{
+ background-color: var(--color);
+}
+.navbar{
+  width: 100%;
+  background-color: var(--color);
+  color: var(--bg-color);
+  
+}
+.toggle-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6px;
+  width: 75px;
+  height: 26px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+ border-bottom-right-radius: 15px;
+
+  background-color:white;
+}
+.box{
+  width: 25%;
+  margin-top: 3px;
+  height: 60%;
+  background-color:black;
+
+  border-radius: 50%;
+}
+.header{
+  height: 150%;
+}
+.header h1{
+  
+  font-weight: 500;
+  font-size: 130px;
+  letter-spacing: 30px; 
+}
+@media only screen and (max-width: 920px){
+  .header h1{
+    font-size: 80px;
+    text-align: center;
+    
+  }
+}
+@media only screen and (max-width: 700px){
+  .header h1{
+    font-size: 40px;
+    text-align: center;
+    
+  }
+}
+@media only screen and (max-width: 250px){
+  .header h1{
+    font-size: 20px;
+    text-align: center;
+    
+  }
+}
+
+.recent,.heading{
+  width: 90%;
+  margin: auto;
+}
+.images{
+  width: 100%;
+  background-color: bisque;
+}
+.images img{
+  width: 100%;
+}
+
+.buttons{
+  text-align: center;
+  width: 70%;
+  
+}
+.buttons a{
+  width: 80px;
+  background-color: rgb(165, 252, 223);
+  border-radius: 12px 12px 12px 12px;
+  color: green;
+  font-weight: 500;
+} 
+.images #imge{
+  height: 200px;
+  object-fit: cover;
+}
+.but{
+  width: 40%;
+}
+.all{
+  width: 90%;
+  margin: auto;
+  margin-top: 18px;
+}
+
+.listPage li{
+  background-color: black;
+  padding:20px;
+  display: inline-block;
+  margin:0 10px;
+  cursor: pointer;
+}.listPage{
+  padding:10px;
+  text-align: center;
+  list-style: none;
+}
+.listPage .active{
+  background-color: white;
+  color:black;
+}
+.all_blog{
+  position: relative;
+}
+.all_blog2, .all_blog3{
+  position: absolute;
+  visibility: hidden;
+
+  
+}
+.btn-dev{
+  width: 100%;
+  margin-top: 30px;
+}
+.footer{
+  width: 60%;
+  margin-top: 30px;
+ 
+}
+.footer a{
+  color:var(--bg-color);
+}
+
+.navbar a{
+  color: var(--bg-color);
+}
+.navbar .navcollap .navlist .nav-items a {
+  color: var(--bg-color);
+
+}
+#navbarSupportedContent  ul li a{
+  color: var(--bg-color)
+}
+.pagination-box .btn{
+  color: var(--bg-color);
+}
+.rowbuttons{
+  width: 70%;
+}
+.rowbuttons a{
+  text-align: center;
+  width: 40%;
+  color:rebeccapurple;
+  background-color: rgb(241, 226, 255);
+  border-radius: 12px 12px 12px 12px;
+  font-weight: 500;
+}
+
+.row2buttons{
+  width: 100%;
+
+}
+
+.row2buttons a{
+  text-align: center;
+  width: 40%;
+  color:rebeccapurple;
+  background-color: rgb(241, 226, 255);
+  border-radius: 12px 12px 12px 12px;
+  font-weight: 500;
+}
+
+
+.row3buttons{
+  width: 90%;
+
+}
+
+.row3buttons a{
+  text-align: center;
+  height: 25px;
+  width: 30%;
+  color:palevioletred;
+  background-color:pink;
+  border-radius: 12px 12px 12px 12px;
+  font-weight: 500;
+}
+#date{
+  color: blueviolet;
+  font-weight: 500;
+  margin-top: 4px;
+  font-size: 14px;
+  
+}
